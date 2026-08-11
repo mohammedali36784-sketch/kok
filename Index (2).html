@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VELOX — Move Faster. Be Stronger.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700;800;900&family=Barlow:wght@300;400;500;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="1.css">
+</head>
+<body>
+
+  <!-- ======== LOADING SCREEN ======== -->
+  <div id="loader">
+    <img src="ChatGPT%20Image%20May%203,%202026,%2007_53_54%20PM.png" alt="Velox" class="loader-logo">
+    <div class="loader-wordmark">VELOX</div>
+    <div class="loader-tagline">Move Faster · Be Stronger</div>
+    <div class="loader-bar"></div>
+  </div>
+
+  <!-- ======== NAVBAR ======== -->
+  <nav class="navbar">
+    <div class="nav-brand">
+      <a href="#hero" class="logo">velox</a>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">☀️</button>
+      <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">AR</button>
+    </div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul id="navLinks">
+      <li><a href="#hero"><i class="fas fa-house"></i> <span class="lang-text" data-en="Home" data-ar="الرئيسية">Home</span></a></li>
+      <li><a href="#about"><i class="fas fa-circle-info"></i> <span class="lang-text" data-en="About" data-ar="حول">About</span></a></li>
+      <li><a href="#contact"><i class="fas fa-envelope"></i> <span class="lang-text" data-en="Contact" data-ar="اتصل بنا">Contact</span></a></li>
+      <li><a href="#stages"><i class="fas fa-chart-line"></i> <span class="lang-text" data-en="Stages" data-ar="المراحل">Stages</span></a></li>
+      <li><a href="project.html"><i class="fas fa-store"></i> <span class="lang-text" data-en="Store" data-ar="المتجر">Store</span></a></li>
+    </ul>
+  </nav>
+
+  <!-- ======== HERO ======== -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-content reveal">
+        <p class="hero-eyebrow lang-text" data-en="Sportswear &amp; Athletic Apparel" data-ar="ملابس رياضية ومعدات رياضية">Sportswear &amp; Athletic Apparel</p>
+        <h2><span class="lang-text" data-en="Welcome to the world of" data-ar="مرحبًا بكم في عالم">Welcome to the world of</span><br><span class="high">velox</span></h2>
+        <p class="lang-text" data-en="Fast. Efficient. Powerful. Velox is a sportswear platform connecting athletes with high-performance gear designed for the Middle East's next generation of champions." data-ar="سريع. كفء. قوي. فيلوكس هو منصة ملابس رياضية تربط الرياضيين بمعدات عالية الأداء مصممة لجيل الأبطال القادم في الشرق الأوسط.">Fast. Efficient. Powerful. Velox is a sportswear platform connecting athletes with high-performance gear designed for the Middle East's next generation of champions.</p>
+        <div class="hero-cta">
+          <a href="project.html" class="btn-primary lang-text" data-en="Shop Now" data-ar="تسوق الآن">Shop Now</a>
+          <a href="#about" class="btn-outline lang-text" data-en="Our Story" data-ar="قصتنا">Our Story</a>
+        </div>
+      </div>
+      <div class="hero-img-wrap reveal-right">
+        <img src="ChatGPT%20Image%20May%203,%202026,%2007_53_54%20PM.png" alt="Velox" class="hero-img">
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ======== ABOUT ======== -->
+  <section class="about" id="about">
+    <div class="container">
+      <p class="section-label reveal lang-text" data-en="About" data-ar="حول">About</p>
+      <h2 class="section-title reveal"><span class="lang-text" data-en="About" data-ar="حول">About</span> <span class="highlight">Velox</span></h2>
+
+      <div class="about-grid">
+        <!-- Brief -->
+        <div class="about-card reveal">
+          <h3 class="lang-text" data-en="Brand Brief" data-ar="نبذة عن العلامة">Brand Brief</h3>
+          <ul>
+            <li><span class="lang-text" data-en="Brand Name" data-ar="اسم العلامة">Brand Name</span>: <span class="highlight">Velox</span></li>
+            <li><span class="lang-text" data-en="Industry" data-ar="المجال">Industry</span>: <span class="lang-text" data-en="Sportswear &amp; Athletic Apparel" data-ar="ملابس رياضية ومعدات رياضية">Sportswear &amp; Athletic Apparel</span></li>
+            <li><span class="lang-text" data-en="Meaning" data-ar="المعنى">Meaning</span>: <span class="highlight lang-text" data-en="Fast, efficient, and powerful" data-ar="سريع، كفء، وقوي">Fast, efficient, and powerful</span></li>
+            <li><span class="lang-text" data-en="Mission" data-ar="المهمة">Mission</span>: <span class="lang-text" data-en="High-quality sportswear for peak athletic performance" data-ar="ملابس رياضية عالية الجودة لأعلى مستوى من الأداء">High-quality sportswear for peak athletic performance</span></li>
+            <li><span class="lang-text" data-en="Vision" data-ar="الرؤية">Vision</span>: <span class="lang-text" data-en="Leading sports brand in the Middle East — football, basketball, tennis &amp; gym" data-ar="علامة رياضية رائدة في الشرق الأوسط — كرة القدم، كرة السلة، التنس والتمرين">Leading sports brand in the Middle East — football, basketball, tennis &amp; gym</span></li>
+          </ul>
+        </div>
+
+        <!-- Target Audience -->
+        <div class="about-card reveal">
+          <h3 class="lang-text" data-en="Target Audience" data-ar="الجمهور المستهدف">Target Audience</h3>
+          <ul>
+            <li><span class="lang-text" data-en="Age" data-ar="العمر">Age</span>: <span class="highlight lang-text" data-en="18–35 years" data-ar="18–35 سنة">18–35 years</span></li>
+            <li><span class="lang-text" data-en="Interests" data-ar="الاهتمامات">Interests</span>: <span class="lang-text" data-en="Sports, fitness, and outdoor activities" data-ar="الرياضة واللياقة والأنشطة الخارجية">Sports, fitness, and outdoor activities</span></li>
+            <li><span class="lang-text" data-en="Income" data-ar="الدخل">Income</span>: <span class="lang-text" data-en="Middle to high income" data-ar="من متوسط إلى مرتفع">Middle to high income</span></li>
+            <li><span class="lang-text" data-en="Geography" data-ar="الجغرافيا">Geography</span>: <span class="lang-text" data-en="Urban and suburban areas" data-ar="المناطق الحضرية والضواحی">Urban and suburban areas</span></li>
+          </ul>
+        </div>
+
+        <!-- Marketing -->
+        <div class="about-card reveal">
+          <h3 class="lang-text" data-en="Marketing Strategy" data-ar="استراتيجية التسويق">Marketing Strategy</h3>
+          <ul>
+            <li class="lang-text" data-en="Social media on Instagram, Facebook &amp; Twitter" data-ar="التسويق عبر إنستغرام وفيسبوك وتويتر">Social media on Instagram, Facebook &amp; Twitter</li>
+            <li class="lang-text" data-en="Influencer partnerships with fitness athletes" data-ar="شراكات مع مؤثري اللياقة">Influencer partnerships with fitness athletes</li>
+            <li class="lang-text" data-en="Content marketing — workout tips &amp; guides" data-ar="التسويق بالمحتوى — نصائح وإرشادات لتمارين">Content marketing — workout tips &amp; guides</li>
+            <li class="lang-text" data-en="Personalized email campaigns" data-ar="حملات بريد إلكتروني مخصصة">Personalized email campaigns</li>
+            <li class="lang-text" data-en="Sponsorship of local sports events" data-ar="رعاية الأحداث الرياضية المحلية">Sponsorship of local sports events</li>
+            <li class="lang-text" data-en="Collaborations with gyms and fitness centers" data-ar="التعاون مع صالات الألعاب الرياضية ومراكز اللياقة البدنية">Collaborations with gyms and fitness centers</li>
+            <li class="lang-text" data-en="SEO and online advertising" data-ar="تحسين محركات البحث والإعلانات عبر الإنترنت">SEO and online advertising</li>  
+            <li class="lang-text" data-en="Pop-up stores and experiential marketing" data-ar="متاجر مؤقتة وتسويق تجريبي">Pop-up stores and experiential marketing</li>  
+          </ul>
+        </div>
+
+        <!-- Positioning -->
+        <div class="about-card reveal">
+          <h3 class="lang-text" data-en="Brand Positioning" data-ar="وضع العلامة">Brand Positioning</h3>
+          <ul>
+            <li class="lang-text" data-en="High performance meets modern design" data-ar="الأداء العالي يلتقي بالتصميم الحديث">High performance meets modern design</li>
+            <li class="lang-text" data-en="Sits between global luxury brands and low-quality local options" data-ar="يقع بين العلامات الفاخرة العالمية والخيارات المحلية المنخفضة الجودة">Sits between global luxury brands and low-quality local options</li>
+            <li class="lang-text" data-en="Balance of quality, price, and identity" data-ar="توازن بين الجودة والسعر والهوية">Balance of quality, price, and identity</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Pillars -->
+      <p class="section-label reveal lang-text" style="margin-top:4rem;" data-en="Key Pillars" data-ar="الأركان الأساسية">Key Pillars</p>
+      <div class="pillars-grid stagger-children">
+        <div class="pillar">
+          <div class="pillar-num">01</div>
+          <h4 class="lang-text" data-en="Performance First" data-ar="الأداء أولًا">Performance First</h4>
+          <p class="lang-text" data-en="Engineered to improve athletic output at every level." data-ar="مصمم لتحسين الأداء الرياضي على كل المستويات.">Engineered to improve athletic output at every level.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-num">02</div>
+          <h4 class="lang-text" data-en="Modern Design" data-ar="تصميم حديث">Modern Design</h4>
+          <p class="lang-text" data-en="A sharp, contemporary look inside and outside the arena." data-ar="مظهر حاد وعصري داخل وخارج الساحة.">A sharp, contemporary look inside and outside the arena.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-num">03</div>
+          <h4 class="lang-text" data-en="Quality &amp; Comfort" data-ar="الجودة والراحة">Quality &amp; Comfort</h4>
+          <p class="lang-text" data-en="Premium fabrics with all-day wearability." data-ar="أقمشة مميزة مع راحة طوال اليوم.">Premium fabrics with all-day wearability.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-num">04</div>
+          <h4 class="lang-text" data-en="Accessible Excellence" data-ar="التميز المتاح">Accessible Excellence</h4>
+          <p class="lang-text" data-en="Premium quality at a price that's within reach." data-ar="جودة متميزة بسعر في متناول اليد.">Premium quality at a price that's within reach.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-num">05</div>
+          <h4 class="lang-text" data-en="Competitive Space" data-ar="مساحة تنافسية">Competitive Space</h4>
+          <p class="lang-text" data-en="The sweet spot between global prestige and local value." data-ar="المكان المثالي بين المكانة العالمية والقيمة المحلية.">The sweet spot between global prestige and local value.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="divider"></div>
+  <!-- < -->
+
+  <!-- ======== PRICE TABLES ======== -->
+  <section class="price-section" id="pricing">
+    <div class="container">
+      <p class="section-label reveal lang-text" data-en="Pricing" data-ar="الأسعار">Pricing</p>
+      <h2 class="section-title reveal"><span class="lang-text" data-en="Price" data-ar="أسعار">Price</span> <span class="highlight">Materials</span></h2>
+
+      <div class="reveal" style="overflow-x:auto;">
+        <table>
+          <thead>
+            <tr>
+              <th class="lang-text" data-en="Product" data-ar="المنتج">Product</th>
+              <th class="lang-text" data-en="Best Material" data-ar="أفضل مادة">Best Material</th>
+              <th class="lang-text" data-en="Ideal Ratio" data-ar="النسبة المثالية">Ideal Ratio</th>
+              <th class="lang-text" data-en="Why?" data-ar="لماذا؟">Why?</th>
+              <th class="lang-text" data-en="Price Range" data-ar="نطاق السعر">Price Range</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td class="lang-text" data-en="Running T-Shirt" data-ar="تيشيرت جري">Running T-Shirt</td><td class="lang-text" data-en="Polyester + Spandex" data-ar="بوليستر + سباندكس">Polyester + Spandex</td><td class="lang-text" data-en="90% / 10%" data-ar="90% / 10%">90% / 10%</td><td class="lang-text" data-en="Lightweight, dries quickly, wicks sweat" data-ar="خفيف الوزن، يجف سريعًا، يمتص العرق">Lightweight, dries quickly, wicks sweat</td><td class="lang-text" data-en="180–300 EGP" data-ar="180–300 جنيه">180–300 EGP</td></tr>
+            <tr><td class="lang-text" data-en="Basket Set" data-ar="طقم كرة سلة">Basket Set</td><td class="lang-text" data-en="Mesh Polyester" data-ar="بوليستر مشبك">Mesh Polyester</td><td class="lang-text" data-en="100% Mesh" data-ar="100% مشبك">100% Mesh</td><td class="lang-text" data-en="Strong ventilation and light movement" data-ar="تهوية قوية وحركة خفيفة">Strong ventilation and light movement</td><td class="lang-text" data-en="140–240 EGP" data-ar="140–240 جنيه">140–240 EGP</td></tr>
+            <tr><td class="lang-text" data-en="Women's Leggings" data-ar="بناطيل نسائية">Women's Leggings</td><td class="lang-text" data-en="Nylon + Spandex" data-ar="نايلون + سباندكس">Nylon + Spandex</td><td class="lang-text" data-en="80% / 20%" data-ar="80% / 20%">80% / 20%</td><td class="lang-text" data-en="Excellent stretch and soft texture" data-ar="مرونة ممتازة وملمس ناعم">Excellent stretch and soft texture</td><td class="lang-text" data-en="220–450 EGP" data-ar="220–450 جنيه">220–450 EGP</td></tr>
+            <tr><td class="lang-text" data-en="Gym T-Shirt" data-ar="تيشيرت جيم">Gym T-Shirt</td><td class="lang-text" data-en="Polyester Interlock" data-ar="بوليستر إنترلوك">Polyester Interlock</td><td class="lang-text" data-en="92% / 8%" data-ar="92% / 8%">92% / 8%</td><td class="lang-text" data-en="Premium shape and stable" data-ar="شكل مميز وثابت">Premium shape and stable</td><td class="lang-text" data-en="140–260 EGP" data-ar="140–260 جنيه">140–260 EGP</td></tr>
+            <tr><td class="lang-text" data-en="Tennis Clothing" data-ar="ملابس تنس">Tennis Clothing</td><td class="lang-text" data-en="Nylon Blend" data-ar="خلطة نايلون">Nylon Blend</td><td class="lang-text" data-en="75% / 25%" data-ar="75% / 25%">75% / 25%</td><td class="lang-text" data-en="Flexibility and luxury shape" data-ar="مرونة وشكل فاخر">Flexibility and luxury shape</td><td class="lang-text" data-en="400–700 EGP" data-ar="400–700 جنيه">400–700 EGP</td></tr>
+            <tr><td class="lang-text" data-en="Sports Shorts" data-ar="شورت رياضي">Sports Shorts</td><td class="lang-text" data-en="Woven Polyester" data-ar="بوليستر منسوج">Woven Polyester</td><td class="lang-text" data-en="86% / 14%" data-ar="86% / 14%">86% / 14%</td><td class="lang-text" data-en="Light and comfortable for running" data-ar="خفيف ومريح للجري">Light and comfortable for running</td><td class="lang-text" data-en="200–250 EGP" data-ar="200–250 جنيه">200–250 EGP</td></tr>
+            <tr><td class="lang-text" data-en="Hoodie / Winter" data-ar="هودي / شتوي">Hoodie / Winter</td><td class="lang-text" data-en="French Terry" data-ar="فرنسي تيري">French Terry</td><td class="lang-text" data-en="Cotton + Polyester" data-ar="قطن + بوليستر">Cotton + Polyester</td><td class="lang-text" data-en="Warm, comfortable, and stylish" data-ar="دافئ ومريح وأنيق">Warm, comfortable, and stylish</td><td class="lang-text" data-en="280–500 EGP" data-ar="280–500 جنيه">280–500 EGP</td></tr>
+            <tr><td class="lang-text" data-en="Compression Wear" data-ar="ملابس ضغط">Compression Wear</td><td class="lang-text" data-en="Nylon Compression" data-ar="ضغط نايلون">Nylon Compression</td><td class="lang-text" data-en="70–80% Nylon + Spandex" data-ar="70–80% نايلون + سباندكس">70–80% Nylon + Spandex</td><td class="lang-text" data-en="Muscle strength and stability" data-ar="قوة الاستقرار العضلي">Muscle strength and stability</td><td class="lang-text" data-en="500–1000 EGP" data-ar="500–1000 جنيه">500–1000 EGP</td></tr>
+            <tr><td class="lang-text" data-en="Athleisure Wear" data-ar="ملابس أثلير">Athleisure Wear</td><td class="lang-text" data-en="Cotton Blend" data-ar="خلطة قطن">Cotton Blend</td><td class="lang-text" data-en="95% / 5%" data-ar="95% / 5%">95% / 5%</td><td class="lang-text" data-en="Comfort and daily use" data-ar="راحة واستخدام يومي">Comfort and daily use</td><td class="lang-text" data-en="500–1000 EGP" data-ar="500–1000 جنيه">500–1000 EGP</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="section-label reveal lang-text" style="margin-top:3rem;" data-en="Fabric Costs" data-ar="تكاليف الأقمشة">Fabric Costs</p>
+      <div class="reveal" style="overflow-x:auto;">
+        <table>
+          <thead>
+            <tr>
+              <th class="lang-text" data-en="Material" data-ar="المادة">Material</th>
+              <th class="lang-text" data-en="Approx. Price" data-ar="السعر التقريبي">Approx. Price</th>
+              <th class="lang-text" data-en="Use" data-ar="الاستخدام">Use</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td class="lang-text" data-en="Polyester Dry Fit" data-ar="بوليستر دراي فيت">Polyester Dry Fit</td><td class="lang-text" data-en="120–180 EGP/kg" data-ar="120–180 جنيه/كجم">120–180 EGP/kg</td><td class="lang-text" data-en="Gym and running t-shirts" data-ar="تيشيرتات الجيم والجري">Gym and running t-shirts</td></tr>
+            <tr><td class="lang-text" data-en="Interlock Polyester" data-ar="بوليستر إنترلوك">Interlock Polyester</td><td class="lang-text" data-en="160–260 EGP/kg" data-ar="160–260 جنيه/كجم">160–260 EGP/kg</td><td class="lang-text" data-en="Premium t-shirts" data-ar="تيشيرتات مميزة">Premium t-shirts</td></tr>
+            <tr><td class="lang-text" data-en="Mesh Polyester" data-ar="بوليستر مشبك">Mesh Polyester</td><td class="lang-text" data-en="100–220 EGP/kg" data-ar="100–220 جنيه/كجم">100–220 EGP/kg</td><td class="lang-text" data-en="Basketball jerseys and shorts" data-ar="بلوزات وأطراف كرة سلة">Basketball jerseys and shorts</td></tr>
+            <tr><td class="lang-text" data-en="Nylon + Spandex" data-ar="نايلون + سباندكس">Nylon + Spandex</td><td class="lang-text" data-en="180–320 EGP/kg" data-ar="180–320 جنيه/كجم">180–320 EGP/kg</td><td class="lang-text" data-en="Leggings and yoga pants" data-ar="بناطيل ويجاي بانتس">Leggings and yoga pants</td></tr>
+            <tr><td class="lang-text" data-en="French Terry" data-ar="فرنسي تيري">French Terry</td><td class="lang-text" data-en="220–450 EGP/kg" data-ar="220–450 جنيه/كجم">220–450 EGP/kg</td><td class="lang-text" data-en="Hoodies and winter wear" data-ar="هوديز وملابس شتوية">Hoodies and winter wear</td></tr>
+            <tr><td class="lang-text" data-en="Heavy Fleece" data-ar="فليسي ثقيل">Heavy Fleece</td><td class="lang-text" data-en="250–500 EGP/kg" data-ar="250–500 جنيه/كجم">250–500 EGP/kg</td><td class="lang-text" data-en="Hoodies and tracksuits" data-ar="هوديز وبدلات رياضية">Hoodies and tracksuits</td></tr>
+            <tr><td class="lang-text" data-en="Softshell" data-ar="سوفشل">Softshell</td><td class="lang-text" data-en="400–800 EGP/kg" data-ar="400–800 جنيه/كجم">400–800 EGP/kg</td><td class="lang-text" data-en="Sports shorts and pants" data-ar="شورت وبنطلونات رياضية">Sports shorts and pants</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note reveal lang-text" style="margin-top:1rem;" data-en="*Pricing may vary by order size and supplier." data-ar="*قد تختلف الأسعار حسب حجم الطلب والمورد.">*Pricing may vary by order size and supplier.</div>
+      <div class="image-card reveal" style="margin-top:2rem; max-width:600px;">
+        <img src="d48a83b9-e7f9-4dc3-8081-5aca57d31593%20-%20Copy.png" alt="Velox" class="zoomable-image" style="width:100%; border-radius:8px; display:block;" />
+      </div>
+
+      <div class="image-modal" id="imageModal" aria-hidden="true">
+        <div class="image-modal-backdrop" id="imageModalBackdrop"></div>
+        <div class="image-modal-content" role="dialog" aria-modal="true">
+          <button class="image-modal-close" id="imageModalClose" aria-label="Close image">×</button>
+          <img id="imageModalImg" alt="" src="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ======== STAGES ======== -->
+  <div class="divider"></div>
+     <section id="stages">
+    <div class="container">
+      <p class="section-label reveal lang-text" data-en="Stages" data-ar="مراحل VELOX في السوق"><span>VELOX</span> Stages In The Market</p>
+      <h2 class="section-title reveal"><span class="lang-text" data-en="Our" data-ar="مراحل">Our</span> <span class="highlight">VELOX</span></h2>
+      <p class="lang-text reveal" data-en="We have a clear roadmap for our brand's growth and market presence. Here are the key stages of our journey." data-ar="لدينا خارطة طريق واضحة لنمو علامتنا التجارية وحضورنا في السوق. فيما يلي المراحل الرئيسية لرحلتنا.">We have a clear roadmap for our brand's growth and market presence. Here are the key stages of our journey.</p>
+    <div>
+      <div class="stages-grid stagger-children">
+        <div class="stage-card reveal">
+          <h3 class="lang-text" data-en="Stage 1: Research & Planning" data-ar="المرحلة 1: البحث والتخطيط">Stage 1: Research & Planning</h3>
+          <ul>
+            <li class="lang-text" data-en="We'll start with basic t-shirts in the first period of our presence in the market, which is from 6 to 8 months, until we reach a certain sales target." data-ar="سنبدأ مع تيشرتات أساسية في الفترة الأولى من وجودنا في السوق, والتي تستمر من 6 إلى 8 أشهر, حتى نصل إلى هدف مبيعات معين.">We'll start with basic t-shirts in the first period of our presence in the market, which is from 6 to 8 months, until we reach a certain sales target.</li>
+            <img src="ChatGPT%20Image%20May%203,%202026,%2007_53_54%20PM.png" alt="Velox" class="stage-img">
+          </ul>
+        </div>
+        <div class="stage-card reveal">
+          <h3 class="lang-text" data-en="Stage 2: Design & Prototyping" data-ar="المرحلة 2: التصميم والنماذج الأولية">Stage 2: Design & Prototyping</h3>
+          <p class="lang-text" data-en="Creating initial designs, prototypes, and testing for functionality and aesthetics." data-ar="إنشاء التصاميم الأولية والنماذج الأولية واختبارها من حيث الوظائف والجماليات.">Creating initial designs, prototypes, and testing for functionality and aesthetics.</p>
+        </div>
+        <div class="stage-card reveal">
+          <h3 class="lang-text" data-en="Stage 3: Production & Launch" data-ar="المرحلة 3: الإنتاج والإطلاق">Stage 3: Production & Launch</h3>
+          <p class="lang-text" data-en="Finalizing production, quality control, and launching the product to the market." data-ar="إتمام الإنتاج، مراقبة الجودة، وإطلاق المنتج في السوق.">Finalizing production, quality control, and launching the product to the market.</p>
+        </div>
+      </div>
+    </div>
+
+  <!-- ======== CONTACT ======== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-inner">
+        <div class="contact-info reveal-left">
+          <p class="section-label lang-text" data-en="Contact" data-ar="اتصل بنا">Contact</p>
+          <h2><span class="lang-text" data-en="Get In" data-ar="تواصل">Get In</span><br><span class="lang-text" data-en="Touch." data-ar="معنا.">Touch.</span></h2>
+          <p class="lang-text" style="margin-top:1.5rem;" data-en="Have a question, partnership proposal, or just want to talk sport? We'd love to hear from you." data-ar="هل لديك سؤال أو اقتراح شراكة أو تريد فقط التحدث عن الرياضة؟ يسعدنا أن نسمع منك.">Have a question, partnership proposal, or just want to talk sport? We'd love to hear from you.</p>
+        </div>
+        <form class="contact-form reveal-right" action="#" method="post">
+          <input type="text" name="name" placeholder="Your Name" data-placeholder-en="Your Name" data-placeholder-ar="اسمك" required>
+          <input type="email" name="email" placeholder="Your Email" data-placeholder-en="Your Email" data-placeholder-ar="بريدك الإلكتروني" required>
+          <textarea name="message" placeholder="Your Message" data-placeholder-en="Your Message" data-placeholder-ar="رسالتك" required></textarea>
+          <button type="submit"><span class="lang-text" data-en="Send Message" data-ar="إرسال الرسالة">Send Message</span></button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <div class="divider"></div>
+  <section id="stages">
+    <div class="container">
+      <p class="section-label reveal lang-text" data-en="Stages" data-ar="مراحل VELOX في السوق"><span>VELOX</span> Stages In The Market</p>
+      <h2 class="section-title reveal"><span class="lang-text" data-en="Our" data-ar="مراحل">Our</span> <span class="highlight">VELOX</span></h2>
+      <p class="lang-text reveal" data-en="We have a clear roadmap for our brand's growth and market presence. Here are the key stages of our journey." data-ar="لدينا خارطة طريق واضحة لنمو علامتنا التجارية وحضورنا في السوق. فيما يلي المراحل الرئيسية لرحلتنا.">We have a clear roadmap for our brand's growth and market presence. Here are the key stages of our journey.</p>
+      <div class="stages-grid stagger-children">
+        <div class="stage-card reveal">
+          <h3 class="lang-text" data-en="Stage 1: Research & Planning" data-ar="المرحلة 1: البحث والتخطيط">Stage 1: Research & Planning</h3>
+          <p class="lang-text" data-en="We'll start with basic t-shirts in the first period of our presence in the market, which is from 6 to 8 months, until we reach a certain sales target." data-ar="سنبدأ مع تيشرتات أساسية في الفترة الأولى من وجودنا في السوق, والتي تستمر من 6 إلى 8 أشهر, حتى نصل إلى هدف مبيعات معين.">We'll start with basic t-shirts in the first period of our presence in the market, which is from 6 to 8 months, until we reach a certain sales target.</p>
+          <img src="ChatGPT%20Image%20May%203,%202026,%2007_53_54%20PM.png" alt="Velox" class="stage-img">
+        </div>
+        <div class="stage-card reveal">
+          <h3 class="lang-text" data-en="Stage 2: Design & Prototyping" data-ar="المرحلة 2: التصميم والنماذج الأولية">Stage 2: Design & Prototyping</h3>
+          <p class="lang-text" data-en="Creating initial designs, prototypes, and testing for functionality and aesthetics." data-ar="إنشاء التصاميم الأولية والنماذج الأولية واختبارها من حيث الوظائف والجماليات.">Creating initial designs, prototypes, and testing for functionality and aesthetics.</p>
+        </div>
+        <div class="stage-card reveal">
+          <h3 class="lang-text" data-en="Stage 3: Production & Launch" data-ar="المرحلة 3: الإنتاج والإطلاق">Stage 3: Production & Launch</h3>
+          <p class="lang-text" data-en="Finalizing production, quality control, and launching the product to the market." data-ar="إتمام الإنتاج، مراقبة الجودة، وإطلاق المنتج في السوق.">Finalizing production, quality control, and launching the product to the market.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ======== CONTACT ======== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-inner">
+        <div class="contact-info reveal-left">
+          <p class="section-label lang-text" data-en="Contact" data-ar="اتصل بنا">Contact</p>
+          <h2><span class="lang-text" data-en="Get In" data-ar="تواصل">Get In</span><br><span class="lang-text" data-en="Touch." data-ar="معنا.">Touch.</span></h2>
+          <p class="lang-text" style="margin-top:1.5rem;" data-en="Have a question, partnership proposal, or just want to talk sport? We'd love to hear from you." data-ar="هل لديك سؤال أو اقتراح شراكة أو تريد فقط التحدث عن الرياضة؟ يسعدنا أن نسمع منك.">Have a question, partnership proposal, or just want to talk sport? We'd love to hear from you.</p>
+        </div>
+        <form class="contact-form reveal-right" action="#" method="post">
+          <input type="text" name="name" placeholder="Your Name" data-placeholder-en="Your Name" data-placeholder-ar="اسمك" required>
+          <input type="email" name="email" placeholder="Your Email" data-placeholder-en="Your Email" data-placeholder-ar="بريدك الإلكتروني" required>
+          <textarea name="message" placeholder="Your Message" data-placeholder-en="Your Message" data-placeholder-ar="رسالتك" required></textarea>
+          <button type="submit"><span class="lang-text" data-en="Send Message" data-ar="إرسال الرسالة">Send Message</span></button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- ======== FOOTER ======== -->
+  <footer>
+    <div class="footer-logo">Velox</div>
+    <div class="footer-tagline lang-text" data-en="Move Faster · Be Stronger" data-ar="تحرك أسرع · كن أقوى">Move Faster · Be Stronger</div>
+    <div class="footer-copy lang-text" data-en="&copy; 2026 Velox. All rights reserved." data-ar="&copy; 2026 فيلوكس. جميع الحقوق محفوظة.">&copy; 2026 Velox. All rights reserved.</div>
+  </footer>
+
+  <script src="velox.js"></script>
+</body>
+</html>
